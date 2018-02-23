@@ -50,7 +50,7 @@ Master:
   #   -Dcom.sun.management.jmxremote.ssl=false
   # JMXPort: 4000
   # List of plugins to be install during Jenkins master start
-  # InstallPlugins:
+  InstallPlugins: []
   #   - kubernetes:1.1
   #   - workflow-aggregator:2.5
   #   - workflow-job:2.15
